@@ -1,0 +1,13 @@
+project_id = "hqnijhldgvdokmvvlaco"
+
+[functions.sslcommerz-success]
+verify_jwt = false
+
+[functions.sslcommerz-fail]
+verify_jwt = false
+
+[functions.sslcommerz-cancel]
+verify_jwt = false
+
+[functions.sslcommerz-payment]
+verify_jwt = false

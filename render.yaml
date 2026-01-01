@@ -1,0 +1,21 @@
+# Exported from Render on 2025-07-14T08:54:19Z
+services:
+- type: web
+  name: fairshop
+  runtime: static
+  repo: https://github.com/iftekharzeeon/farishop.git
+  envVars:
+  - key: SUPABASE_URL
+    sync: false
+  - key: SUPABASE_ANON_KEY
+    sync: false
+  - key: NODE_ENV
+    sync: false
+  buildCommand: bun install && bun run build
+  staticPublishPath: dist
+  routes:
+  - type: rewrite
+    source: /*
+    destination: /index.html
+  autoDeployTrigger: commit
+version: "1"
