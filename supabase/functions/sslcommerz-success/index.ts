@@ -68,7 +68,7 @@ Deno.serve(async (req) => {
         status: 302,
         headers: {
           Location: `${
-            Deno.env.get("FRONTEND_URL_ESHOP") || "http://localhost:8080"
+            Deno.env.get("FRONTEND_URL_AMARSHOP") || "http://localhost:8080"
           }/payment-success?payment=success&order=${transactionId}`,
         },
       });
@@ -83,7 +83,7 @@ Deno.serve(async (req) => {
         status: 302,
         headers: {
           Location: `${
-            Deno.env.get("FRONTEND_URL_ESHOP") || "http://localhost:8080"
+            Deno.env.get("FRONTEND_URL_AMARSHOP") || "http://localhost:8080"
           }/payment-success?payment=failed&order=${transactionId}`,
         },
       });

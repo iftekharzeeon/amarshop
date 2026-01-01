@@ -4,7 +4,7 @@
 
 if [ "$1" = "development" ]; then
     echo "Setting up development environment..."
-    supabase secrets set FRONTEND_URL_ESHOP=http://localhost:8080
+    supabase secrets set FRONTEND_URL_AMARSHOP=http://localhost:8080
     echo "✅ Development environment configured"
     echo "   Frontend URL: http://localhost:8080"
     
@@ -16,7 +16,7 @@ elif [ "$1" = "production" ]; then
     fi
     
     echo "Setting up production environment..."
-    supabase secrets set FRONTEND_URL_ESHOP=$2
+    supabase secrets set FRONTEND_URL_AMARSHOP=$2
     echo "✅ Production environment configured"
     echo "   Frontend URL: $2"
     

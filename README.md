@@ -157,10 +157,10 @@ Set the frontend URL for payment callbacks:
 
 ```bash
 # Development
-supabase secrets set FRONTEND_URL_ESHOP=http://localhost:8080
+supabase secrets set FRONTEND_URL_AMARSHOP=http://localhost:8080
 
 # Production
-supabase secrets set FRONTEND_URL_ESHOP=https://your-domain.com
+supabase secrets set FRONTEND_URL_AMARSHOP=https://your-domain.com
 ```
 
 After changing the environment, redeploy the edge functions:

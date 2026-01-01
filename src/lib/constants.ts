@@ -1,10 +1,10 @@
 // Site configuration constants
 export const SITE_CONFIG = {
   // E-commerce site branding
-  SITE_NAME: "e-Shop",
-  ORGANIZATION_NAME: "Prefeex Ltd.",
+  SITE_NAME: "AmarShop",
+  ORGANIZATION_NAME: "Panaroma Apparels Ltd.",
   SITE_TAGLINE: "Your Trusted Online Store",
-  ORGANIZATION_LOGO: "/prefeex.png",
+  ORGANIZATION_LOGO: "/panaroma.jpeg",
 
   // Developer branding
   DEVELOPER_NAME: "Pridesys IT Ltd",

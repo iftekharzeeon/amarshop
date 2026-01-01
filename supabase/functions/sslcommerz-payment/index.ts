@@ -3,7 +3,7 @@ import { createClient } from "jsr:@supabase/supabase-js@2";
 // Site configuration constants
 const SITE_CONFIG = {
   // E-commerce site branding
-  SITE_NAME: "e-Shop",
+  SITE_NAME: "AmarShop",
   ORGANIZATION_NAME: "Aaron Denim Ltd.",
   SITE_TAGLINE: "Your Trusted Online Store",
   ORGANIZATION_LOGO: "/aaron.jpeg",
